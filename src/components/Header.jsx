@@ -11,9 +11,8 @@ const Header = ({ title }) => {
 Header.defaultProps = {
   title: "Task Tracker",
 };
-
-// eslint-disable-next-line react/no-typos
-Header.PropTypes = {
+//Note the other proptypes should be in small letters
+Header.propTypes = {
   title: PropTypes.string.isRequired,
 };
 
